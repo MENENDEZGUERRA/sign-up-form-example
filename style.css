@@ -1,0 +1,16 @@
+:root{
+    --bg-color: #212620;
+    --tan-color: #D5B28A;
+    --bistre-color: #372A23;
+    --blue-color: #2A2E32;
+    --black-color: #2C2C24;
+}
+body{
+    margin: 0;
+    background-color: var(--bg-color);
+}
+
+#house-bg {
+    height: 99.9vh;
+    width: 70vh;
+}
