@@ -22,6 +22,12 @@ body{
     background-color: var(--bg-color);
 }
 
+.page-content {
+    display: flex;
+    flex-direction: row;
+    
+}
+
 .logo-container{
     position: absolute;
     top: 40%;
@@ -33,4 +39,67 @@ body{
 #house-bg {
     height: 99.2vh;
     width: 70vh;
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
+    
+}
+
+.form-text {
+    width: 70vh;
+    padding: 2vh;
+    margin: 2vh;
+    margin-bottom: 0;
+}
+
+.form {
+    width: 70vh;
+    border: 5px solid var(--tan-color);
+    border-radius: 4px;
+    padding: 2vh;
+    margin: 2vh;
+    margin-top: 0;
+}
+
+.form-control {
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid var(--tan-color);
+    border-radius: 4px;
+    background-color: var(--blue-color);
+    color: var(--tan-color);
+}
+
+.create-account {
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: var(--tan-color);
+    background-color: var(--bistre-color);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px var(--blue-color);
+    margin: 8px;
+    margin-left: 0;
+}
+
+.create-account:hover {background-color: var(--black-color)}
+
+.create-account:active {
+    background-color: var(--bistre-color);
+    box-shadow: 0 5px var(--blue-color);
+    transform: translateY(4px);
+}
+
+a {
+    color: var(--tan-color);
 }
