@@ -5,12 +5,32 @@
     --blue-color: #2A2E32;
     --black-color: #2C2C24;
 }
+
+@font-face {
+    font-family: QuasarSoft;
+    src: url("./fonts/QuasarSoft.otf") format("opentype");
+}
+
+.page-content{
+    display: flex;
+}
+
 body{
+    font-family: QuasarSoft;
+    color: var(--tan-color);
     margin: 0;
     background-color: var(--bg-color);
 }
 
+.logo-container{
+    position: absolute;
+    top: 40%;
+    background-color: rgb(0, 0, 0, .5);
+    width: 70vh;
+    text-align: center;
+}
+
 #house-bg {
-    height: 99.9vh;
+    height: 99.2vh;
     width: 70vh;
 }
